@@ -85,8 +85,12 @@ void structs_and_memory() {
     // Allocates on heap
     size_t person_size = sizeof(struct person);
     printf("\nAllocating %d bytes...\n", (int) person_size);
-    
     struct person *heap_alice = malloc(person_size);
+
+    // Direct assignment of structs
+    // copies the memory values
+    // (it's important that we
+    //  dereferenced 'heap_alice')
     *heap_alice = alice;
     printf("Person on heap: %s (age %d)\n",
         heap_alice->name, heap_alice->age);
