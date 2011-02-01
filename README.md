@@ -21,5 +21,5 @@ Lessons:
 Resources:
 ----------
 
-The [Wikipedia article](http://en.wikipedia.org/wiki/Struct_(C_programming_language) )
+The [Wikipedia article](http://en.wikipedia.org/wiki/Struct_%28C_programming_language%29 )
 actually has a pretty good overview of struct syntax, etc.
