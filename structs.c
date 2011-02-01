@@ -95,6 +95,12 @@ void structs_and_memory() {
     printf("Person on heap: %s (age %d)\n",
         heap_alice->name, heap_alice->age);
 
+    // Keep in mind that we've only copied
+    // a pointer to the heap. The pointer
+    // points to a string on the stack.
+    // (i.e. heap_alice->name points to
+    //  the stack)
+
     // Oops! Leaked memory by not calling
     // "free()" on "heap_alice"
     // Try using 'valgrind' to debug
