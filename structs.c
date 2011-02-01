@@ -140,5 +140,5 @@ void getpwuid_example() {
     // from a pointer to the struct
     char *username = pointer_to_passwd->pw_name;
 
-    printf("\nUsername: %s", username);
+    printf("\nUsername: %s\n", username);
 }
